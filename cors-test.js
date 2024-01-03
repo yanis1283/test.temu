@@ -1,5 +1,5 @@
 var xhr = new XMLHttpRequest();
-xhr.open('GET','http://temu.com',true);
+xhr.open('GET','https://temu.com',true);
 
 xhr.onload = function() {
   if (xhr.status >= 200 && xhr.status < 400) {
